@@ -20,7 +20,8 @@ export default defineConfig({
 		  },
 		preview: {
 			port: 3000,
-			host: true
+			host: true,
+			allowedHosts: ['www.mlfm.store', 'mlfm.store']
 		}
 	}
 });
